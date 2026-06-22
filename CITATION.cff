@@ -1,0 +1,59 @@
+# This CITATION.cff lets GitHub show a "Cite this repository" button and lets
+# tools (Zenodo, citation managers) export the citation automatically.
+#
+# `preferred-citation` points at the paper: when someone uses this software we
+# ask them to cite BOTH the software (the fields below) and the paper (the
+# `preferred-citation` block). See the README "Citation" section.
+#
+# TODO (fill in once the preprint is up):
+#   - the arXiv identifier / DOI under `preferred-citation.identifiers`
+#   - `version` and `date-released` at each tagged release
+#   - the SPDX `license` once chosen (e.g. MIT, Apache-2.0)
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper below."
+title: "ResEvoKS: Evolutionary Reservoir Computing for Spatiotemporal Chaos (Julia)"
+abstract: >-
+  A fully-Julia code suite for evolving echo-state reservoir computers to
+  forecast Kuramoto-Sivashinsky chaos and for analyzing the recurrent network
+  structure that prediction selects for. Two packages: ResEvoKS_Simulation
+  (genetic-algorithm reservoir search) and ResEvoKS_Analysis (Pareto front,
+  Laplacian spectra, modularity, and multi-objective trade-offs).
+type: software
+authors:
+  - family-names: Dehghani
+    given-names: Nima
+    email: nima.dehghani@mit.edu
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO
+version: "1.0.0"
+date-released: "2026-06-21"
+# license: MIT                                          # TODO: set SPDX id once chosen
+# repository-code: "https://github.com/<user>/<repo>"  # TODO: set on publish
+# url: "https://github.com/<user>/<repo>"               # TODO: set on publish
+keywords:
+  - reservoir computing
+  - echo-state network
+  - Kuramoto-Sivashinsky
+  - spatiotemporal chaos
+  - evolutionary optimization
+  - network structure
+  - Julia
+
+# ---------------------------------------------------------------------------
+# The paper to cite when using this software.
+# ---------------------------------------------------------------------------
+preferred-citation:
+  type: article
+  title: "Evolutionary Optimization Reveals Structural Constraints on Reservoir Architecture for Spatiotemporal Chaos"
+  authors:
+    - family-names: Dehghani
+      given-names: Nima
+      email: nima.dehghani@mit.edu
+  year: 2026
+  # The paper will be posted to arXiv; fill these in when available:
+  # journal: "arXiv preprint"
+  # identifiers:
+  #   - type: other
+  #     value: "arXiv:XXXX.XXXXX"          # TODO
+  #   - type: doi
+  #     value: "10.48550/arXiv.XXXX.XXXXX" # TODO
+  # url: "https://arxiv.org/abs/XXXX.XXXXX" # TODO
