@@ -73,7 +73,6 @@ mode. Highlights of the port:
 [Pipeline](ResEvoKS_Simulation/docs/Simulation-Pipeline.md) ·
 [API](ResEvoKS_Simulation/docs/API-Reference.md) ·
 [Running & Reproducibility](ResEvoKS_Simulation/docs/Running-and-Reproducibility.md) ·
-[Original-code report](ResEvoKS_Simulation/REPORT_original_code.md)
 
 ### Analysis — `ResEvoKS_Analysis`
 
@@ -96,7 +95,6 @@ figures with `Plots.jl`.
 [Pipeline](ResEvoKS_Analysis/docs/Analysis-Pipeline.md) ·
 [API](ResEvoKS_Analysis/docs/API-Reference.md) ·
 [Running & Reproducibility](ResEvoKS_Analysis/docs/Running-and-Reproducibility.md) ·
-[Analysis-code report](ResEvoKS_Analysis/REPORT_analysis_code.md)
 
 ---
 
@@ -133,11 +131,11 @@ julia/
 ├── README.md                  ← you are here (repo overview)
 ├── ResEvoKS_Simulation/       evolutionary KS reservoir simulation (Julia)
 │   ├── src/  scripts/  test/  docs/
-│   ├── README.md   REPORT_original_code.md
+│   ├── README.md   
 │   └── Project.toml
 └── ResEvoKS_Analysis/         structural analysis of evolved reservoirs (Julia)
     ├── src/  scripts/  test/  docs/
-    ├── README.md   REPORT_analysis_code.md
+    ├── README.md   
     └── Project.toml
 ```
 
