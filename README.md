@@ -1,6 +1,6 @@
 # ResEvoKS — Evolutionary Reservoir Computing for Spatiotemporal Chaos
 [![DOI](https://zenodo.org/badge/DOI/10.5281%2Fzenodo.20807393.svg)](https://doi.org/10.5281/zenodo.20807393)
-[![Paper Card](https://img.shields.io/badge/Paper%20Card-Neurovium-6f42c1)](https://neurovium.science/posts/Adaptive-reservoir)
+[![Paper Card](https://img.shields.io/badge/Paper%20Card-Neurovium-6f42c1)](https://neurovium.science/papers/Adaptive-reservoir)
 [![Blog Post](https://img.shields.io/badge/Blog%20Post-Neurovium-0a7cff)](https://neurovium.science/posts/pblog-Adaptive-reservoir)
 
 Companion code for the paper
@@ -173,7 +173,7 @@ reference automatically.
 }
 ```
 
-[![Paper Card](https://img.shields.io/badge/Paper%20Card-Neurovium-6f42c1)](https://neurovium.science/posts/Adaptive-reservoir)
+[![Paper Card](https://img.shields.io/badge/Paper%20Card-Neurovium-6f42c1)](https://neurovium.science/papers/Adaptive-reservoir)
 [![Blog Post](https://img.shields.io/badge/Blog%20Post-Neurovium-0a7cff)](https://neurovium.science/posts/pblog-Adaptive-reservoir)
 
 ```
