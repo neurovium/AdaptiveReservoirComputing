@@ -3,9 +3,13 @@
 Companion code for the paper
 
 > **Evolutionary Optimization Reveals Structural Constraints on Reservoir
-> Architecture for Spatiotemporal Chaos**, N. Dehghani.
+> Architecture for Spatiotemporal Chaos**, Nima Dehghani. 2026.
 
-This repository asks a simple yet foundational question with a large search: *when you evolve echo-state **reservoir computers** to forecast the
+[![arXiv](https://img.shields.io/badge/arXiv-2606.11415-b31b1b.svg)](https://arxiv.org/abs/2606.22765)
+[![PDF](https://img.shields.io/badge/PDF-2606.11415-blue.svg)](https://arxiv.org/pdf/2606.22765)
+[![HTML](https://img.shields.io/badge/HTML-2606.11415-green.svg)](https://arxiv.org/html/2606.22765v1)
+
+This investigation asks a simple yet foundational question with a large search: *when you evolve echo-state **reservoir computers** to forecast the
 chaotic **Kuramoto–Sivashinsky (KS)** equation, what kind of recurrent network
 structure does prediction actually select for?* The work has two halves —
 **evolving** the reservoirs, and **dissecting** the ones that survive — and this
@@ -151,20 +155,24 @@ reference automatically.
 **The software:**
 
 > Dehghani, Nima. *ResEvoKS: Evolutionary Reservoir Computing for Spatiotemporal
-> Chaos (Julia)*, 2026. https://github.com/<user>/<repo>
+> Chaos (Julia)*, 2026. https://github.com/neurovium/AdaptiveReservoirComputing 
 
-**The paper** (preprint going to arXiv — BibTeX will be added here once posted):
+**The paper**:
 
 ```bibtex
-@article{dehghani2026resevo,
-  title   = {Evolutionary Optimization Reveals Structural Constraints on
-             Reservoir Architecture for Spatiotemporal Chaos},
-  author  = {Dehghani, Nima},
-  year    = {2026},
-  journal = {arXiv preprint},
-  note    = {arXiv:XXXX.XXXXX}        % TODO: fill in arXiv id / DOI
+@article{Dehghani2026resevomech,
+      title={Evolutionary Optimization Reveals Structural Constraints on Reservoir Architecture for Spatiotemporal Chaos}, 
+      author={Nima Dehghani},
+      year={2026},
+      eprint={2606.22765},
+      archivePrefix={arXiv},
+      primaryClass={cs.NE},
+      url={https://arxiv.org/abs/2606.22765}, 
 }
 ```
 
+[![Paper Card](https://img.shields.io/badge/Paper%20Card-Neurovium-6f42c1)](https://neurovium.science/posts/Adaptive-reservoir)
+
+[![Blog Post](https://img.shields.io/badge/Blog%20Post-Neurovium-0a7cff)](https://neurovium.science/posts/pblog-Adaptive-reservoir)
 Original MATLAB simulation, Python demos, Julia analysis and the full Julia port by
 **Nima Dehghani**.
