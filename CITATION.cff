@@ -23,12 +23,12 @@ authors:
   - family-names: Dehghani
     given-names: Nima
     email: nima.dehghani@mit.edu
-    # orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO
+    # orcid: "https://orcid.org/0000-0003-2032-8903"   
 version: "1.0.0"
-date-released: "2026-06-21"
-# license: MIT                                          # TODO: set SPDX id once chosen
-# repository-code: "https://github.com/<user>/<repo>"  # TODO: set on publish
-# url: "https://github.com/<user>/<repo>"               # TODO: set on publish
+date-released: "2026-06-23"
+license: MIT                                          
+repository-code: "https://github.com/neurovium/AdaptiveReservoirComputing/" 
+url: "https://github.com/neurovium/AdaptiveReservoirComputing"
 keywords:
   - reservoir computing
   - echo-state network
@@ -36,6 +36,8 @@ keywords:
   - spatiotemporal chaos
   - evolutionary optimization
   - network structure
+  - mechanistic interpretability
+  - bio-inspired AI
   - Julia
 
 # ---------------------------------------------------------------------------
@@ -49,11 +51,10 @@ preferred-citation:
       given-names: Nima
       email: nima.dehghani@mit.edu
   year: 2026
-  # The paper will be posted to arXiv; fill these in when available:
-  # journal: "arXiv preprint"
-  # identifiers:
-  #   - type: other
-  #     value: "arXiv:XXXX.XXXXX"          # TODO
-  #   - type: doi
-  #     value: "10.48550/arXiv.XXXX.XXXXX" # TODO
-  # url: "https://arxiv.org/abs/XXXX.XXXXX" # TODO
+  journal: "arXiv preprint"
+  identifiers:
+     - type: other
+       value: "arXiv:2606.22765"          
+     - type: doi
+       value: "10.48550/arXiv.2606.22765" 
+   url: "https://arxiv.org/abs/2606.22765" 
