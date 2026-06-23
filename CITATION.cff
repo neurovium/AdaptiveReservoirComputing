@@ -23,12 +23,13 @@ authors:
   - family-names: Dehghani
     given-names: Nima
     email: nima.dehghani@mit.edu
-    # orcid: "https://orcid.org/0000-0003-2032-8903"   
+    orcid: "https://orcid.org/0000-0003-2032-8903"   
 version: "1.0.0"
 date-released: "2026-06-23"
+doi: "10.5281/zenodo.xxxxxxx"
 license: MIT                                          
 repository-code: "https://github.com/neurovium/AdaptiveReservoirComputing/" 
-url: "https://github.com/neurovium/AdaptiveReservoirComputing"
+url: "https://neurovium.science/papers/Adaptive-reservoir"
 keywords:
   - reservoir computing
   - echo-state network
@@ -51,10 +52,11 @@ preferred-citation:
       given-names: Nima
       email: nima.dehghani@mit.edu
   year: 2026
-  journal: "arXiv preprint"
+  journal: "arXiv"
   identifiers:
-     - type: other
-       value: "arXiv:2606.22765"          
-     - type: doi
-       value: "10.48550/arXiv.2606.22765" 
-   url: "https://arxiv.org/abs/2606.22765" 
+    - type: other
+      value: "arXiv:2606.22765"
+    - type: doi
+      value: "10.48550/arXiv.2606.22765"
+  url: "https://arxiv.org/abs/2606.22765"
+
