@@ -1,13 +1,15 @@
 # ResEvoKS — Evolutionary Reservoir Computing for Spatiotemporal Chaos
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20807393.svg)](https://doi.org/10.5281/zenodo.20807393)
+[![Paper Card](https://img.shields.io/badge/Paper%20Card-Neurovium-6f42c1)](https://neurovium.science/posts/Adaptive-reservoir)
+[![Blog Post](https://img.shields.io/badge/Blog%20Post-Neurovium-0a7cff)](https://neurovium.science/posts/pblog-Adaptive-reservoir)
 
 Companion code for the paper
 
 > **Evolutionary Optimization Reveals Structural Constraints on Reservoir
 > Architecture for Spatiotemporal Chaos**, Nima Dehghani. 2026.
-
-[![arXiv](https://img.shields.io/badge/arXiv-2606.11415-b31b1b.svg)](https://arxiv.org/abs/2606.22765)
-[![PDF](https://img.shields.io/badge/PDF-2606.11415-blue.svg)](https://arxiv.org/pdf/2606.22765)
-[![HTML](https://img.shields.io/badge/HTML-2606.11415-green.svg)](https://arxiv.org/html/2606.22765v1)
+[![arXiv](https://img.shields.io/badge/arXiv-2606.22765-b31b1b.svg)](https://arxiv.org/abs/2606.22765)
+[![PDF](https://img.shields.io/badge/PDF-2606.22765-blue.svg)](https://arxiv.org/pdf/2606.22765)
+[![HTML](https://img.shields.io/badge/HTML-2606.22765-green.svg)](https://arxiv.org/html/2606.22765v1)
 
 This investigation asks a simple yet foundational question with a large search: *when you evolve echo-state **reservoir computers** to forecast the
 chaotic **Kuramoto–Sivashinsky (KS)** equation, what kind of recurrent network
@@ -155,7 +157,7 @@ reference automatically.
 **The software:**
 
 > Dehghani, Nima. *ResEvoKS: Evolutionary Reservoir Computing for Spatiotemporal
-> Chaos (Julia)*, 2026. https://github.com/neurovium/AdaptiveReservoirComputing 
+> Chaos (Julia)*, 2026. https://doi.org/10.5281/zenodo.20807393 
 
 **The paper**:
 
@@ -172,7 +174,7 @@ reference automatically.
 ```
 
 [![Paper Card](https://img.shields.io/badge/Paper%20Card-Neurovium-6f42c1)](https://neurovium.science/posts/Adaptive-reservoir)
-
 [![Blog Post](https://img.shields.io/badge/Blog%20Post-Neurovium-0a7cff)](https://neurovium.science/posts/pblog-Adaptive-reservoir)
-Original MATLAB simulation, Python demos, Julia analysis and the full Julia port by
+
+```
 **Nima Dehghani**.
