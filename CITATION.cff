@@ -1,14 +1,3 @@
-# This CITATION.cff lets GitHub show a "Cite this repository" button and lets
-# tools (Zenodo, citation managers) export the citation automatically.
-#
-# `preferred-citation` points at the paper: when someone uses this software we
-# ask them to cite BOTH the software (the fields below) and the paper (the
-# `preferred-citation` block). See the README "Citation" section.
-#
-# TODO (fill in once the preprint is up):
-#   - the arXiv identifier / DOI under `preferred-citation.identifiers`
-#   - `version` and `date-released` at each tagged release
-#   - the SPDX `license` once chosen (e.g. MIT, Apache-2.0)
 cff-version: 1.2.0
 message: "If you use this software, please cite both the software and the paper below."
 title: "ResEvoKS: Evolutionary Reservoir Computing for Spatiotemporal Chaos (Julia)"
@@ -19,17 +8,21 @@ abstract: >-
   (genetic-algorithm reservoir search) and ResEvoKS_Analysis (Pareto front,
   Laplacian spectra, modularity, and multi-objective trade-offs).
 type: software
+
 authors:
   - family-names: Dehghani
     given-names: Nima
     email: nima.dehghani@mit.edu
-    orcid: "https://orcid.org/0000-0003-2032-8903"   
+    orcid: "https://orcid.org/0000-0003-2032-8903"
+
 version: "1.0.0"
 date-released: "2026-06-23"
-doi: "10.5281/zenodo.xxxxxxx"
-license: MIT                                          
-repository-code: "https://github.com/neurovium/AdaptiveReservoirComputing/" 
+doi: "10.5281/zenodo.20807393"
+license: MIT
+
+repository-code: "https://github.com/neurovium/AdaptiveReservoirComputing/"
 url: "https://neurovium.science/papers/Adaptive-reservoir"
+
 keywords:
   - reservoir computing
   - echo-state network
@@ -41,9 +34,6 @@ keywords:
   - bio-inspired AI
   - Julia
 
-# ---------------------------------------------------------------------------
-# The paper to cite when using this software.
-# ---------------------------------------------------------------------------
 preferred-citation:
   type: article
   title: "Evolutionary Optimization Reveals Structural Constraints on Reservoir Architecture for Spatiotemporal Chaos"
@@ -59,4 +49,3 @@ preferred-citation:
     - type: doi
       value: "10.48550/arXiv.2606.22765"
   url: "https://arxiv.org/abs/2606.22765"
-
